@@ -15,7 +15,7 @@ const Dashboard = () => {
           {item.map((e, i) => (
             <div
               key={i}
-              className="w-[20rem] group rounded-[32px] overflow-hidden md:w-[18rem]"
+              className="w-[20rem] group rounded-[32px] shadow-md overflow-hidden md:w-[18rem]"
             >
               <img
                 src={e.thumbnail}

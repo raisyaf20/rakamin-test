@@ -13,7 +13,7 @@ const Detail = () => {
   return (
     <section className="mt-20">
       <div className="container mx-auto">
-        <div className="flex flex-wrap justify-center lg:flex-row">
+        <div className="flex bg-slate-200 p-4 rounded-lg flex-wrap justify-center md:bg-inherit md:rounded-none lg:flex-row">
           <div className="w-[20rem] px-4 md:w-1/2">
             <img
               src={item.thumbnail}

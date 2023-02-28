@@ -13,7 +13,7 @@ const NavigationBar = () => {
                 href="/#"
                 className="px-4 text-primary text-xl font-bold lg:text-3xl"
               >
-                Navigasi Vite
+                Rakamin
               </a>
             </div>
             <div className="self-center py-6">
