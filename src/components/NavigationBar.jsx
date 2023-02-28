@@ -30,7 +30,7 @@ const NavigationBar = () => {
               <nav
                 className={`${
                   burger ? "" : "hidden"
-                } max-w-[13rem] w-full absolute bg-white lg:bg-transparent top-full z-20 right-6 lg:static lg:block`}
+                } max-w-[13rem] w-full absolute bg-white rounded-md lg:bg-transparent top-full z-20 right-6 lg:static lg:block`}
                 id="nav"
               >
                 <ul className="block p-4 rounded-lg shadow-lg lg:flex lg:rounded-none lg:shadow-none lg:py-0">
